@@ -1,0 +1,20 @@
+{
+  "name": "schools-api-assignment",
+  "version": "1.0.0",
+  "description": "Assignment submission of Educase internship to implement api endpoints related to schools and their locations",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Prathamesh Gandule",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  }
+}
