@@ -20,7 +20,7 @@ function haversine(lat1, lon1, lat2, lon2) {
     let c = 2 * Math.asin(Math.sqrt(a));
 
     // CALCULATE THE DISTANCE
-    return earthRadius * c;
+    return Math.round((earthRadius * c) * 1000) / 1000;
 }
 
 function calculateDistanceAndSort(schoolsData, userLat, userLon){
